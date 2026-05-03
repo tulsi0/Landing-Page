@@ -1,0 +1,146 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F9FAFB;
+    color: #111827;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+.navbar {
+    background: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e7eb;
+    position: sticky;
+    top: 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #374151;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #4F46E5;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 0;
+    background: linear-gradient(to right, #4F46E5, #06B6D4);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    margin: 15px 0;
+}
+
+/* Button */
+.btn {
+    background: white;
+    color: #4F46E5;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* Section title */
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Features */
+.features {
+    padding: 60px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    flex: 1;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.card i {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #4F46E5;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    padding: 60px 20px;
+    background: #4F46E5;
+    color: white;
+}
+
+/* Contact */
+.contact {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact input {
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.contact button {
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111827;
+    color: white;
+}
